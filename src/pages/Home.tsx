@@ -167,7 +167,7 @@ const WhyChooseUs = () => (
           { icon: <Heart className="w-8 h-8" />, title: "Romantic Honeymoons", desc: "Specially crafted itineraries for couples including exclusive candlelight dinners and private beach walks." },
           { icon: <Clock className="w-8 h-8" />, title: "Hassle-Free Logistics", desc: "From airport pickups to jetty drops, our private AC fleet handles all your transportation smoothly." },
           { icon: <Award className="w-8 h-8" />, title: "PADI Certified Dives", desc: "Experience the majestic underwater coral reefs safely with our certified and experienced scuba instructors." }
-        ]].map((item, i) => (
+        ].map((item, i) => (
           <motion.div
             key={i}
             initial={{ opacity: 0, y: 20 }}
