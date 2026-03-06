@@ -105,15 +105,9 @@ const Hero = () => {
           </span>
         </div>
 
-        <h1 className="text-6xl md:text-8xl text-white mb-6 leading-[0.9]">
-          Your Journey, <br />
-          <span className="font-script text-accent italic">Our Responsibility</span>
-        </h1>
+        <h1 className="text-6xl md:text-8xl text-white mb-6 leading-[0.9]">Escape to <br /> <span className="font-script text-accent italic">Andaman Bliss</span></h1>
 
-        <p className="text-white/90 text-lg md:text-xl font-light mb-12 max-w-2xl mx-auto tracking-wide">
-          Handcrafted itineraries. Verified local guides. <br className="hidden md:block" />
-          No hidden charges. Just unforgettable experiences.
-        </p>
+        <p className="text-white/90 text-lg md:text-xl font-light mb-12 max-w-2xl mx-auto tracking-wide">Discover the ultimate Andaman holiday packages featuring pristine beaches, thrilling scuba diving, and unparalleled honeymoon experiences. Government approved and traveler trusted.</p>
 
         <div className="glass-card p-2 md:p-4 max-w-5xl mx-auto flex flex-col md:flex-row gap-4 items-center shadow-2xl">
           <div className="flex-1 w-full grid grid-cols-1 md:grid-cols-3 gap-2">
@@ -162,42 +156,18 @@ const WhyChooseUs = () => (
     <div className="max-w-7xl mx-auto">
       <div className="text-center mb-16">
         <span className="text-[11px] uppercase tracking-[0.3em] font-display font-bold text-accent mb-4 block">Why Travelers Trust Us</span>
-        <h2 className="text-5xl md:text-6xl">Your trip, done right</h2>
+        <h2 className="text-5xl md:text-6xl">Unbeatable Island Experiences</h2>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {[
-          {
-            icon: <Shield className="w-8 h-8" />,
-            title: "No Hidden Charges",
-            desc: "Transparent pricing from day one. The price we quote is the price you pay — no surprise fees, no last-minute add-ons."
-          },
-          {
-            icon: <Headphones className="w-8 h-8" />,
-            title: "24/7 On-Trip Support",
-            desc: "Our dedicated travel desk is available round the clock while you're traveling. One call and we handle everything."
-          },
-          {
-            icon: <CheckCircle className="w-8 h-8" />,
-            title: "Verified Local Partners",
-            desc: "Every hotel, guide, and driver in our network is personally vetted. We only work with the best on the ground."
-          },
-          {
-            icon: <Heart className="w-8 h-8" />,
-            title: "Customized Itineraries",
-            desc: "No cookie-cutter tours. Every trip is personally designed around your interests, pace, and budget."
-          },
-          {
-            icon: <Clock className="w-8 h-8" />,
-            title: "Flexible Payment Options",
-            desc: "Book with a small deposit and pay the rest later. We offer EMI options and accept all major payment methods."
-          },
-          {
-            icon: <Award className="w-8 h-8" />,
-            title: "Govt. Approved Operator",
-            desc: "We are a registered and Ministry of Tourism approved tour operator with 10+ years of trusted operations."
-          }
-        ].map((item, i) => (
+          { icon: <Shield className="w-8 h-8" />, title: "Trusted Andaman Experts", desc: "As a local DMC, we offer 100% transparent pricing with direct rates for Andaman resorts and activities." },
+          { icon: <Headphones className="w-8 h-8" />, title: "24/7 Island Support", desc: "Our ground team in Port Blair and Havelock is available round the clock to assist you during your island hopping." },
+          { icon: <CheckCircle className="w-8 h-8" />, title: "Verified Ferry Partners", desc: "Guaranteed seats on Makruzz and Green Ocean. We only work with the safest and most reliable cruise operators." },
+          { icon: <Heart className="w-8 h-8" />, title: "Romantic Honeymoons", desc: "Specially crafted itineraries for couples including exclusive candlelight dinners and private beach walks." },
+          { icon: <Clock className="w-8 h-8" />, title: "Hassle-Free Logistics", desc: "From airport pickups to jetty drops, our private AC fleet handles all your transportation smoothly." },
+          { icon: <Award className="w-8 h-8" />, title: "PADI Certified Dives", desc: "Experience the majestic underwater coral reefs safely with our certified and experienced scuba instructors." }
+        ]].map((item, i) => (
           <motion.div
             key={i}
             initial={{ opacity: 0, y: 20 }}
